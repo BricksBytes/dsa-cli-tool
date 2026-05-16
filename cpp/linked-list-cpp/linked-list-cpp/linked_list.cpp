@@ -108,63 +108,63 @@ public:
 };
 
 // ── MAIN ──────────────────────────────────────────
-int main() {
-    LinkedList ll;
-    int choice, val;
-
-    cout << "================================\n";
-    cout << "   DSA CLI TOOL — LINKED LIST   \n";
-    cout << "       by Bricks (BricksBytes)  \n";
-    cout << "================================\n";
-
-    while (true) {
-        cout << "\n--- MENU ---\n";
-        cout << "1. Insert at End\n";
-        cout << "2. Insert at Beginning\n";
-        cout << "3. Delete Node\n";
-        cout << "4. Search Node\n";
-        cout << "5. Display List\n";
-        cout << "6. Size of List\n";
-        cout << "0. Exit\n";
-        cout << "Enter choice: ";
-        cin >> choice;
-
-        switch (choice) {
-        case 1:
-            cout << "Enter value: ";
-            cin >> val;
-            ll.insertEnd(val);
-            ll.display();
-            break;
-        case 2:
-            cout << "Enter value: ";
-            cin >> val;
-            ll.insertBegin(val);
-            ll.display();
-            break;
-        case 3:
-            cout << "Enter value to delete: ";
-            cin >> val;
-            ll.deleteNode(val);
-            ll.display();
-            break;
-        case 4:
-            cout << "Enter value to search: ";
-            cin >> val;
-            ll.search(val);
-            break;
-        case 5:
-            ll.display();
-            break;
-        case 6:
-            ll.size();
-            break;
-        case 0:
-            cout << "Goodbye Bricks! Keep Coding! 💪\n";
-            return 0;
-        default:
-            cout << "Invalid choice!\n";
-        }
-    }
-    return 0;
-}
+//int main() {
+//    LinkedList ll;
+//    int choice, val;
+//
+//    cout << "================================\n";
+//    cout << "   DSA CLI TOOL — LINKED LIST   \n";
+//    cout << "       by Bricks (BricksBytes)  \n";
+//    cout << "================================\n";
+//
+//    while (true) {
+//        cout << "\n--- MENU ---\n";
+//        cout << "1. Insert at End\n";
+//        cout << "2. Insert at Beginning\n";
+//        cout << "3. Delete Node\n";
+//        cout << "4. Search Node\n";
+//        cout << "5. Display List\n";
+//        cout << "6. Size of List\n";
+//        cout << "0. Exit\n";
+//        cout << "Enter choice: ";
+//        cin >> choice;
+//
+//        switch (choice) {
+//        case 1:
+//            cout << "Enter value: ";
+//            cin >> val;
+//            ll.insertEnd(val);
+//            ll.display();
+//            break;
+//        case 2:
+//            cout << "Enter value: ";
+//            cin >> val;
+//            ll.insertBegin(val);
+//            ll.display();
+//            break;
+//        case 3:
+//            cout << "Enter value to delete: ";
+//            cin >> val;
+//            ll.deleteNode(val);
+//            ll.display();
+//            break;
+//        case 4:
+//            cout << "Enter value to search: ";
+//            cin >> val;
+//            ll.search(val);
+//            break;
+//        case 5:
+//            ll.display();
+//            break;
+//        case 6:
+//            ll.size();
+//            break;
+//        case 0:
+//            cout << "Goodbye Bricks! Keep Coding!\n";
+//            return 0;
+//        default:
+//            cout << "Invalid choice!\n";
+//        }
+//    }
+//    return 0;
+//}
