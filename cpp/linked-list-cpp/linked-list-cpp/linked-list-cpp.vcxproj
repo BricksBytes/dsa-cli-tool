@@ -123,6 +123,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Detect_Cycle.cpp" />
+    <ClCompile Include="Merge_Two_Sorted_Linked_Lists.cpp" />
     <ClCompile Include="ReverseLinkedlist.cpp" />
     <ClCompile Include="linked_list.cpp" />
     <ClCompile Include="Middle_Element.cpp" />
