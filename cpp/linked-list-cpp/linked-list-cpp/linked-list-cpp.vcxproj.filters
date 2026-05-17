@@ -30,5 +30,14 @@
     <ClCompile Include="Merge_Two_Sorted_Linked_Lists.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Remove_Nth_Node_from_End.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="findIntersection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Remove Duplicates.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

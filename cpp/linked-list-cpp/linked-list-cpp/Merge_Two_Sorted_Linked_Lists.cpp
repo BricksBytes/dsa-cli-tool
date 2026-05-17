@@ -14,7 +14,7 @@ Node* mergeSortedLists(Node* l1, Node* l2)
 {
 	// If either list is empty return the other
 	if (l1 == nullptr)return l2;
-	if (l2 == nullptr)return l2;
+	if (l2 == nullptr)return l1;
 
 	Node* result = nullptr;
 

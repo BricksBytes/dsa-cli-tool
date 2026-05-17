@@ -124,7 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Detect_Cycle.cpp" />
+    <ClCompile Include="findIntersection.cpp" />
     <ClCompile Include="Merge_Two_Sorted_Linked_Lists.cpp" />
+    <ClCompile Include="Remove Duplicates.cpp" />
+    <ClCompile Include="Remove_Nth_Node_from_End.cpp" />
     <ClCompile Include="ReverseLinkedlist.cpp" />
     <ClCompile Include="linked_list.cpp" />
     <ClCompile Include="Middle_Element.cpp" />
